@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
+}
+
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 500px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.header_logo {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header_logo_text1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.header_logo_text2 {
+  color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conteiner {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link__home {
+  color: #f25822;
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_seo {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top_content {
+  padding-top: 44px;
+  padding-bottom: 162px;
+  display: flex;
+  gap: 41px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_marketing {
+  margin-bottom: 17px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_seo {
+  margin-bottom: 37px;
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top_content_left__buttons {
+  margin-bottom: 162px;
+  padding-bottom: 16px 36px;
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button1 {
+  padding: 15px 36px;
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  border: none;
+  margin-right: 72px;
+
+}
+
+.top_content_right {
+  margin-bottom: 163px;
+  display: flex;
+  justify-content: center;
+}
+
+.top__logo {
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
